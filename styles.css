@@ -1,0 +1,53 @@
+/* Organize and transfer everything from index.scss to this page using advanced css practices
+- Don't forget to link index.html to this page instead of index.scss
+*/
+
+.container {
+    display: grid;
+    max-width: 1000px;
+    grid-gap: 10px;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "banner banner"
+                         "intro intro"
+                         "guide guide"
+                         "content content"
+                         "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200px 200px 400px 300px 300px 1000px 300px;
+  }
+  
+  .header {
+    background-color: turquoise;
+    grid-area: header;
+  }
+  
+  .nav {
+    background-color: white;
+    grid-area: nav;
+  }
+  
+  .banner {
+    background-color: turquoise;
+    grid-aread: banner;
+  }
+  
+  .intro {
+    background-color: white;
+    grid-area: intro;
+  }
+  
+  .guide {
+    background-color: turquoise;
+    grid-area: guide;
+  }
+  
+  .content {
+    background-color: white;
+    grid-area: content;
+  }
+  
+  .footer {
+    background-color: turquoise;
+    grid-area: footer;
+  }
