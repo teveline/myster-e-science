@@ -7,3 +7,5 @@ I will update the website as I learn more about HTML, CSS, and Javascript.
 
 Future Improvements:
 Get a logo designed using fiver, or another service, then create a favicon using a free favicon generator.
+
+...
